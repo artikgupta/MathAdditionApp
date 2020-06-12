@@ -1,0 +1,61 @@
+body {
+  background: #247ba0;
+}
+
+#canvas {
+  box-sizing: border-box;
+  position: relative;
+  top: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffe066;
+  margin: 5rem auto;
+  width: 50rem;
+  max-width: 100%;
+  height: 20rem;
+}
+
+#primary-number,
+#secondary-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+  width: 15rem;
+  height: 5rem;
+  box-sizing: border-box;
+}
+
+#primary-number {
+  border: solid 4px #70c1b3;
+  margin-left: 1rem;
+}
+
+#secondary-number {
+  border: solid 4px #247ba0;
+  margin-left: 1rem;
+}
+
+#add,
+#equal {
+  font-weight: bold;
+  font-size: 40px;
+  padding: 5px;
+}
+input {
+  border: solid 2px #50514f;
+  width: 150px;
+  height: 30px;
+  padding-left: 25px;
+}
+
+button {
+  width: 100px;
+  height: 35px;
+  margin: 5px;
+  background: #f25f5c;
+  color: white;
+  border: 1px solid lightgrey;
+}
